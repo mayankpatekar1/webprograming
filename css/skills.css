@@ -1,0 +1,159 @@
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 10px;
+}
+
+.navbar-nav{
+    margin-right: 55px;
+
+}
+
+.nav-item{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+
+.red{
+    width: 100%;
+    height: 930px;
+    display: inline-block;
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 115px;
+}
+
+
+
+
+img{
+    border-radius: 100px;
+}
+
+.left{
+  float: left;
+  margin-right: 10px;
+  padding: 10px 0 0 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.right{
+    float: right;
+    margin-left: 10px;
+    padding: 10px 10px 0 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.pbox{
+    display: inline-block;
+    width: 880px;
+    text-align: left;
+    padding: 10px 0 0 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.pbox h1{
+    margin-top: 0;
+}
+
+
+p{
+    text-align: center;
+    display: inline;
+}
+
+.green{
+    background-color: #2a9d8f ;
+    width: 100%;
+    height: 700px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+
+
+.downloadable{
+    width: 100%;
+    height: 700px;
+    /* display: inline-block; */
+}
+
+
+
+
+
+
+footer{
+    background-color: #2a9d8f;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    /* text-align: center; */
+    
+}
+
+footer p img{
+     margin: 20px;
+     display: inline;
+     
+}
+
+footer p{
+    
+    display: block;
+}
+
+.foot-link a{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer{
+    background-color: #2a9d8f;
+    width: 100%;
+    height: 200px;
+    
+}
+footer p {
+  
+} */
+
+
+
+
+@media screen and (max-width:1200px) {
+      .left,.right{
+          float: none;
+          display: inline;
+          text-align: center;
+      }  
+      .pbox{
+          display: inline;
+          width: 100%;
+         text-align: center;
+      }
+      .pbox p{
+          display: inline-block;
+      }
+
+      .foot-link a{
+          display: inline;
+      }
+}
